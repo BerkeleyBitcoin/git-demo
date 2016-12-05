@@ -1,3 +1,4 @@
+
 """Functions that simulate dice rolls.
 
 A dice function takes no arguments and returns a number from 1 to n
@@ -14,6 +15,9 @@ Types of dice:
 """
 
 from random import randint
+
+for x in range(200000000):
+    print("As a member of the Greek community and a part of one of these organizations this meme page is highly offensive. Sororities at UC Berkeley make it their goal to give women a place to feel comfortable as well as better the community. Comparing specific houses to characters from a movie about bullying is absurd and beyond inaccurate. Making the claim that sororities are cliques is demeaning the sisterhood and values they are founded on. This clearly is a stab at a community on campus that does nothing but support the rest of the student body."*x)
 
 def make_fair_dice(sides):
     """Return a die that returns 1 to SIDES with equal chance."""
