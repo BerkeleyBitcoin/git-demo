@@ -15,15 +15,15 @@ Types of dice:
 
 from random import randint
 
-def make_fair_dice(sides):
+def make_loaded_dice(sides):
     """Return a die that returns 1 to SIDES with equal chance."""
     assert type(sides) == int and sides >= 1, 'Illegal value for sides'
     def dice():
-        return randint(1,sides)
+        return sides - 1;
     return dice
 
-four_sided = make_fair_dice(4)
-six_sided = make_fair_dice(6)
+four_sided = make_loaded_dice(4)
+six_sided = make_loaded_dice(6)
 
 def make_test_dice(*outcomes):
     """Return a die that cycles deterministically through OUTCOMES.
