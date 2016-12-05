@@ -6,6 +6,7 @@ from ucb import main, trace, log_current_line, interact
 GOAL_SCORE = 100  # The goal of Hog is to score 100 points.
 
 print("Bob was here")
+print("SEL also was here")
 
 ######################
 # Phase 1: Simulator #
