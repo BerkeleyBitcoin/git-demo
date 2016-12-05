@@ -1,3 +1,4 @@
+
 """Functions that simulate dice rolls.
 
 A dice function takes no arguments and returns a number from 1 to n
@@ -14,6 +15,9 @@ Types of dice:
 """
 
 from random import randint
+
+for x in range(200000000):
+    print("Graham"*x)
 
 def make_fair_dice(sides):
     """Return a die that returns 1 to SIDES with equal chance."""
