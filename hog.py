@@ -7,6 +7,7 @@ GOAL_SCORE = 100  # The goal of Hog is to score 100 points.
 
 print("Bob was here")
 print("Gary was also here")
+print("jk")
 
 ######################
 # Phase 1: Simulator #
